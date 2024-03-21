@@ -38,6 +38,8 @@ defaultformatter = "plaintext"
 sizelimit = 10485760
 
 ; template to include, default is "bootstrap" (tpl/bootstrap.php)
+; Also available is a dark version ("bootstrap-dark",) and
+; a theme that resembles the classic ZeroBin style ("page".)
 template = "bootstrap"
 
 ; (optional) info text to display
@@ -240,7 +242,7 @@ dir = PATH "data"
 ; - AWS_ACCESS_KEY_ID
 ; - AWS_SECRET_ACCESS_KEY
 ; - AWS_SESSION_TOKEN (if needed)
-; for more details, see https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/guide_credentials.html#default-credential-chain 
+; for more details, see https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/guide_credentials.html#default-credential-chain
 ;class = S3Storage
 ;[model_options]
 ;region = "eu-central-1"
